@@ -21,3 +21,16 @@ Treat this exercise as if you were writing production code; think unit tests, SO
 The solution must be stored in a git repo. After the repo is cloned, the application should be able to run with one command / script.
 
 Don't spend too much time on this.
+
+# Solution
+The solution is implemented in .NET 8. To run the application, run the following command in the root of the repository:
+<code>
+dotnet run --project 6LetterWordChallenge.App
+</code>
+
+The application will read the input from the file `input.txt` in the root of the repository and will output the combinations of words that form a 6-letter word. The output will be written to `output.txt`.
+
+The application is tested with unit tests. The tests can be run with the following command:
+<code>
+dotnet test
+</code>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6LetterWordChallenge.App", "6LetterWordChallenge.App\6LetterWordChallenge.App.csproj", "{DB48F06C-9465-4EFA-9017-EFF3700D367B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6LetterWordChallenge.Interfaces", "6LetterWordChallenge.Interfaces\6LetterWordChallenge.Interfaces.csproj", "{3C85A13A-93D4-46A9-85FC-417089DBA08D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6LetterWordChallenge.Test", "6LetterWordChallenge.Test\6LetterWordChallenge.Test.csproj", "{34562156-ED74-4EC3-8978-E346DD6429FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6LetterWordChallenge.Models", "6LetterWordChallenge.Models\6LetterWordChallenge.Models.csproj", "{6CD7819B-26F9-4006-9730-6E0906051D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6LetterWordChallenge.Services", "6LetterWordChallenge.Services\6LetterWordChallenge.Services.csproj", "{B00EB6D0-BC0D-4CDA-B069-63EFCE04F30B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB48F06C-9465-4EFA-9017-EFF3700D367B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB48F06C-9465-4EFA-9017-EFF3700D367B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB48F06C-9465-4EFA-9017-EFF3700D367B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB48F06C-9465-4EFA-9017-EFF3700D367B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C85A13A-93D4-46A9-85FC-417089DBA08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C85A13A-93D4-46A9-85FC-417089DBA08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C85A13A-93D4-46A9-85FC-417089DBA08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C85A13A-93D4-46A9-85FC-417089DBA08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34562156-ED74-4EC3-8978-E346DD6429FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34562156-ED74-4EC3-8978-E346DD6429FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34562156-ED74-4EC3-8978-E346DD6429FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34562156-ED74-4EC3-8978-E346DD6429FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD7819B-26F9-4006-9730-6E0906051D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD7819B-26F9-4006-9730-6E0906051D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD7819B-26F9-4006-9730-6E0906051D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD7819B-26F9-4006-9730-6E0906051D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00EB6D0-BC0D-4CDA-B069-63EFCE04F30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00EB6D0-BC0D-4CDA-B069-63EFCE04F30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00EB6D0-BC0D-4CDA-B069-63EFCE04F30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00EB6D0-BC0D-4CDA-B069-63EFCE04F30B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

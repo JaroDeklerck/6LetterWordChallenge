@@ -1,0 +1,18 @@
+<Project Sdk="MSTest.Sdk/3.6.1">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_6LetterWordChallenge.Test</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseVSTest>true</UseVSTest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\6LetterWordChallenge.Interfaces\6LetterWordChallenge.Interfaces.csproj" />
+    <ProjectReference Include="..\6LetterWordChallenge.Models\6LetterWordChallenge.Models.csproj" />
+    <ProjectReference Include="..\6LetterWordChallenge.Services\6LetterWordChallenge.Services.csproj" />
+  </ItemGroup>
+
+</Project>
